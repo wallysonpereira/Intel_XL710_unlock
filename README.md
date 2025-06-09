@@ -2,11 +2,14 @@
 Credit git: https://github.com/bibigon812/xl710-unlocker
 
 Testado em OS Linux base debian.
-
 Realize instalação de arquivos necessário: apt-get install build-essential && apt-get install git
+
 Realize download dos arquivos: git clone https://github.com/wallysonpereira/Intel_XL710_unlock
+
 Navegue até a pasta: cd Intel_XL710_unlock
+
 Utilize o comando Make para compilar o aplicativo: make
+
 Encontre o código da sua placa: dmesg | grep i40
 [4.894735] i40e: Intel(R) Ethernet Connection XL710 Network Driver
 [4.894741] i40e: Copyright (c) 2013 - 2019 Intel Corporation.
